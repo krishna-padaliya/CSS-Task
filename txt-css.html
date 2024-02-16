@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        section{
+            height: 800px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            color: rgb(4, 53, 48);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .div1{ 
+            margin-top: 30px;
+            height: 200px;
+            flex-basis: 45%;
+            box-shadow: 2px 2px 2px 2px gray;
+            text-align: center;
+        }
+        .div1 h1{
+            color: rgb(65, 3, 43);
+            font-size: 30px;
+        }
+        .div1 .capital{
+            text-transform: capitalize;
+        }
+        .div1 .upper{
+            text-transform: uppercase;
+        }
+        .div1 .lower{
+            text-transform: lowercase;
+        }
+
+        .div2{
+            margin-top: 30px;
+            height: 200px;
+            flex-basis: 45%;
+            box-shadow: 2px 2px 2px 2px gray;
+            text-align: center;
+        }
+        .div2 h1{
+            font-size: 30px;
+            color: rgb(65, 3, 43);
+        }
+        .div2 .over{
+            text-decoration: overline rgb(66, 95, 4);
+        }
+        .div2 .thro{
+            text-decoration: line-through rgb(66, 95, 4);
+        }
+        .div2 .under{
+            text-decoration: underline rgb(66, 95, 4);
+        }
+
+        .div3{
+           
+            height: 200px;
+            flex-basis: 45%;
+            box-shadow: 2px 2px 2px 2px gray;
+        }
+        .div3 .center{
+            text-align: center;
+        }
+        .div3 .right{
+            text-align: right;
+        }
+        .div3 .h1{
+            text-align: center;
+            font-size: 30px;
+            color: rgb(65, 3, 43);
+        }
+
+        .div4{
+            height: 200px;
+            flex-basis: 45%;
+            box-shadow: 2px 2px 2px 2px gray;
+        }
+        .div4 h1{
+            text-align: center;
+            color: rgb(65, 3, 43);
+            font-size: 30px;
+        }
+        .div4 p{
+            text-indent: 45px;
+        }
+
+        .div5{
+            height: 200px;
+            flex-basis: 45%;
+            box-shadow: 2px 2px 2px 2px gray;
+            text-align: center;
+        }
+        .div5 h1{
+           
+            color: rgb(65, 3, 43);
+            font-size: 30px;
+        }
+        .div5 .a{
+          
+            text-shadow: 2px 2px 2px yellow;
+        }
+        .div5 .b{
+            
+            text-shadow: 2px 2px 2px blue;
+        }
+        .div5 .c{
+            text-shadow: 2px 2px 2px olive;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="div1">
+            <h1>TEXT - TRANSFORM</h1>
+            <h4 class="capital">text - transform : capitalize;</h4>
+            <h4 class="upper">text - transform : uppercase;</h4>
+            <h4 class="lower">TEXT - TRANSFORM : LOWERCASE;</h4>
+        </div>
+       
+        <div class="div2">
+            <h1>TEXT - DECORATION</h1>
+            <h4 class="over">TEXT - DECORATION : OVERLINE;</h4>
+            <h4 class="thro">TEXT - DECORATION : LINE-THROUGH;</h4>
+            <h4 class="under">TEXT - DECORATION : UNDERLINE;</h4>
+        </div>
+       
+        <div class="div3">
+            <h1 class="h1">TEXT - ALIGN</h1>
+            <h4>TEXT - ALIGN : LEFT;</h4>
+            <h4 class="center">TEXT - ALIGN : CENTER;</h4>
+            <h4 class="right">TEXT - ALIGN : RIGHT;</h4>
+        </div>
+
+        <div class="div4">
+            <h1>TEXT - INDENT</h1>
+            <h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui atque magni ratione rem nobis expedita fuga cumque, blanditiis in soluta minima cum quas numquam praesentium sint eos alias mollitia quaerat?</p></h4>
+        </div>
+        <div class="div5">
+            <h1>TEXT - SHADOW</h1>
+            <h4 class="a">TEXT - SHADOW : YELLOW</h4>
+            <h4 class="b">TEXT - SHADOW : BLUE</h4>
+            <h4 class="c">TEXT - SHADOW : OVILE</h4>
+        </div>
+    </section>
+</body>
+</html>

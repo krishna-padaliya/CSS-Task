@@ -1,0 +1,80 @@
+ header{
+    width: 203vh;
+    height: 100vh;
+    /* border: 1px solid black; */
+   /* background: linear-gradient(rgba(10,20,30,0.10)); */
+    background-image: url(abstract-space-wallpaper-background-dark-smoke-design_53876-128279.avif);
+    background-size: cover;
+    color: aliceblue;
+    background-color: black;
+ }
+ div{
+    height: 19vh;
+    width: 100%;
+    font-size: 20px;
+    position: relative;
+    color: aliceblue;
+    /* border: 1px solid rgb(1, 1, 1); */
+   }
+ #a{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    display: inline-block;
+    text-decoration: none;
+color: aliceblue;
+   }
+ #b{
+    width: 150px;
+    height: 100px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 10px;
+    left: 95vh;
+ }
+ 
+ #c{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    display: inline-block;
+}
+#d{
+   width: 500px;
+   height: 500px;
+   position: absolute;
+   top: 240px;
+   left: 90px;
+   height: 450px;
+}
+#e{
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 120px;
+    left: 300px;
+}
+#f{
+      font-size: 70px;
+      color: rgb(205, 24, 24);
+      font-weight: 500;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      position: absolute;
+      top: 200px;
+      left: 600px;
+}
+#g{
+   font-size: 40px;
+   color: rgb(205, 24, 24);
+   font-weight: 500;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   position: absolute;
+   top: 320px;
+   left: 600px;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    
+   }
+
